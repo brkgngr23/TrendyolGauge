@@ -10,9 +10,14 @@ import java.io.*;
 import java.sql.*;
 import java.util.*;
 import java.util.NoSuchElementException;
+import java.util.concurrent.TimeUnit;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
+import okhttp3.MediaType;
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.RequestBody;
 import org.apache.log4j.PropertyConfigurator;
 import org.junit.Assert;
 import org.openqa.selenium.*;
@@ -25,6 +30,8 @@ import org.slf4j.LoggerFactory;
 import org.slf4j.impl.Log4jLoggerAdapter;
 
 
+import javax.net.ssl.HostnameVerifier;
+import javax.net.ssl.SSLSession;
 import javax.swing.text.Document;
 
 import static io.restassured.RestAssured.given;
@@ -185,11 +192,150 @@ public void Control(boolean statement, String onTrue, String onFalse){
     System.out.println("deneme basarili");
   }
 
+  /* ---------------------- Api Testleri ----------------------------- */
+
+  protected okhttp3.Response response=null;
+  protected OkHttpClient.Builder client =client();
+  protected String url= "https://petstore.swagger.io";
+  protected String requestBody= null;
+
+  private OkHttpClient.Builder client(){
+    OkHttpClient.Builder client = new OkHttpClient.Builder();
+    client.connectTimeout(30, TimeUnit.SECONDS);
+    client.readTimeout(45, TimeUnit.SECONDS);
+    client.writeTimeout(30, TimeUnit.SECONDS);
+    client.hostnameVerifier(new HostnameVerifier() {
+
+      @Override
+      public boolean verify(String hostname, SSLSession session) {
+
+        return true;
+      }
+    });
+    return client;
+  }
 
 
 
+  protected Request getService (String url) {
+    return new Request.Builder().url(url).get().addHeader("content-type", "application/json")
+            //.addHeader("cookie", getSessionId(response))
+            .build();
+  }
 
+  protected String getServices(String url, String service, String serviceName) {
+    String body="";
+    try {
+      Request request = getService(url+service);
+      response= client.build().newCall(request).execute();
+      body=response.body().string();
+      Control(response.isSuccessful(), serviceName + "Basarili " + "<br>" + response.message() + "<br>" + body +"",serviceName + "Basarisiz " + "<br>" + response.message() + "<br>" + body +"");
+      logger.info(String.valueOf(response.code()));
+    }
+    catch (Exception e) {
+      logger.error(e.toString());
+    }
+    return body;
+  }
 
+  protected Request deleteService (String url) {
+    return new Request.Builder().url(url).delete().addHeader("content-type", "application/json")
+            //.addHeader("cookie", getSessionId(response))
+            .build();
+  }
+
+  protected String deleteServices(String url, String service, String serviceName) {
+    String body="";
+    try {
+      Request request = deleteService(url+service);
+      response= client.build().newCall(request).execute();
+      body=response.body().string();
+      Control(response.isSuccessful(), serviceName + "Basarili " + "<br>" + response.message() + "<br>" + body +"",serviceName + "Basarisiz " + "<br>" + response.message() + "<br>" + body +"");
+    }
+    catch (Exception e) {
+      logger.error(e.toString());
+    }
+    return body;
+  }
+
+  public Request postService(String url, String body) {
+    requestBody= body;
+    return new Request.Builder().url(url).post(RequestBody.create(MediaType.parse("application/json\""), body))
+            .addHeader("content-type", "application/json")
+            .build();
+  }
+
+  protected String postServices(String url, String service,String body, String serviceName) {
+    String responsebody="";
+    try {
+      Request request = postService(url+service,body);
+      response= client.build().newCall(request).execute();
+      responsebody=response.body().string();
+      Control(response.isSuccessful(), serviceName + "Basarili " + "<br><br>" + "Request :" + "<br>" + body +"",serviceName + "Basarisiz " + "<br>" + response.message() + "<br>" + body +"");
+      logger.info(String.valueOf(response.code()));
+    }
+    catch (Exception e) {
+      logger.error(e.toString());
+    }
+    return responsebody;
+  }
+
+  public Request putService(String url, String body) {
+    requestBody= body;
+    return new Request.Builder().url(url).put(RequestBody.create(MediaType.parse("application/json\""), body))
+            .addHeader("content-type", "application/json")
+            .build();
+  }
+
+  protected String putServices(String url, String service,String body, String serviceName) {
+    String responsebody="";
+    try {
+      Request request = putService(url+service,body);
+      response= client.build().newCall(request).execute();
+      responsebody=response.body().string();
+      Control(response.isSuccessful(), serviceName + "Basarili " + "<br><br>" + "Request :" + "<br>" + body +"",serviceName + "Basarisiz " + "<br>" + response.message() + "<br>" + body +"");
+
+    }
+    catch (Exception e) {
+      logger.error(e.toString());
+    }
+    return responsebody;
+  }
+  @Step({"getUserByUserName Api Testi"})
+  public void getUserByUserName() {
+    getServices(url, "/v2/user/burak", "getUserByUserName");
+  }
+  @Step({"getOrderId Api Testi"})
+  public void getOrderId() {
+    getServices(url, "/v2/store/order/1", "getOrderId");
+  }
+  @Step({"getInventory Api Testi"})
+  public void getInventory() {
+    getServices(url, "/v2/store/inventory", "getInventory");
+  }
+  @Step({"getStatus Api Testi"})
+  public void getStatus() {
+    getServices(url, "/v2/pet/findByStatus?status=available", "getStatus");
+  }
+  @Step({"deleteUpdateAnExistinPet Api Testi"})
+  public void deleteUpdateAnExistinPet() {
+    deleteServices(url, "/v2/store/order/1", "deleteUpdateAnExistinPet");
+  }
+  @Step({"postCreateWhiteList Api Test"})
+  public void postCreateWhiteList () {
+    String body= "[{\"id\": 0,\"username\": \"burak\",\"firstName\":\"string\",\"lastName\":\"string\",\"email\":\"string\",\"password\": \"burak\",\"phone\": \"string\",\"userStatus\": 0}]";
+    postServices(url, "/v2/user/createWithList", body, "postCreateWhiteList");
+  }
+  @Step({"postPlaceAnOrderForAPet Api Testi"})
+  public void postPlaceAnOrderForAPet () {
+    String body= "{\"id\": 1,\"petId\": 0,\"quantity\": 0,\"shipDate\": \"2020-08-16T21:18:52.569Z\",\"status\": \"placed\",\"complete\": true}";
+    postServices(url, "/v2/store/order", body, "postPlaceAnOrderForAPet");
+  }
+  @Step({"putUpdateAnExistinPet Api Testi"})
+  public void putUpdateAnExistinPet () {
+    String body= "{\"id\": 0,\"category\": {\"id\": 0,\"name\": \"string\"},\"name\": \"doggie\",\"photoUrls\": [\"string\"],\"tags\": [{\"id\": 0,\"name\": \"string\"}],\"status\": \"available\"}";
+    putServices(url, "/v2/pet", body, "putUpdateAnExistinPet");
+  }
 
 }
 
