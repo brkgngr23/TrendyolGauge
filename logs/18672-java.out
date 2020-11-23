@@ -1,0 +1,393 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: A number (1) of logging calls during the initialization phase have been intercepted and are
+SLF4J: now being replayed. These are subject to the filtering rules of the underlying logging system.
+SLF4J: See also http://www.slf4j.org/codes.html#replay
+{"logLevel":"debug","message":"gauge-java took 1046milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1046"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+2020-11-23 08:05:12 INFO  Reflections:169 info - Reflections took 3936 ms to scan 108 urls, producing 13125 keys and 68646 values 
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.checkElementNotExists' and 'WebAutomationBase.step.BaseSteps.checkElementNotExists'"}
+{"logLevel":"debug","message":"Found Check if element {} not exists in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.checkElementNotExists' and 'WebAutomationBase.step.BaseSteps.checkElementNotExists'"}
+{"logLevel":"debug","message":"Found Element yok mu kontrol et {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.clickElement' and 'WebAutomationBase.step.BaseSteps.clickElement'"}
+{"logLevel":"debug","message":"Found Click to element {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.clickElement' and 'WebAutomationBase.step.BaseSteps.clickElement'"}
+{"logLevel":"debug","message":"Found Elementine tıkla {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.checkURLContainsRepeat' and 'WebAutomationBase.step.BaseSteps.checkURLContainsRepeat'"}
+{"logLevel":"debug","message":"Found Check if current URL contains the value {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.checkURLContainsRepeat' and 'WebAutomationBase.step.BaseSteps.checkURLContainsRepeat'"}
+{"logLevel":"debug","message":"Found Şuanki URL {} değerini içeriyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.printPageSource' and 'WebAutomationBase.step.BaseSteps.printPageSource'"}
+{"logLevel":"debug","message":"Found Print page source in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.olarakSecersemm' and 'WebAutomationBase.step.BaseSteps.olarakSecersemm'"}
+{"logLevel":"debug","message":"Found {} olarak {} seçersemm in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.sendKeyToElementESCAPE' and 'WebAutomationBase.step.BaseSteps.sendKeyToElementESCAPE'"}
+{"logLevel":"debug","message":"Found Send ESCAPE key to element {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.sendKeyToElementESCAPE' and 'WebAutomationBase.step.BaseSteps.sendKeyToElementESCAPE'"}
+{"logLevel":"debug","message":"Found Elemente ESCAPE keyi yolla {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.checkElementContainsText' and 'WebAutomationBase.step.BaseSteps.checkElementContainsText'"}
+{"logLevel":"debug","message":"Found Check if element {} contains text {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.checkElementContainsText' and 'WebAutomationBase.step.BaseSteps.checkElementContainsText'"}
+{"logLevel":"debug","message":"Found {} elementi {} değerini içeriyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.javascriptClickerWithCss' and 'WebAutomationBase.step.BaseSteps.javascriptClickerWithCss'"}
+{"logLevel":"debug","message":"Found Click with javascript to css {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.javascriptClickerWithCss' and 'WebAutomationBase.step.BaseSteps.javascriptClickerWithCss'"}
+{"logLevel":"debug","message":"Found Javascript ile css tıkla {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.checkElementExistsThenClick' and 'WebAutomationBase.step.BaseSteps.checkElementExistsThenClick'"}
+{"logLevel":"debug","message":"Found Wait for element then click {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.checkElementExistsThenClick' and 'WebAutomationBase.step.BaseSteps.checkElementExistsThenClick'"}
+{"logLevel":"debug","message":"Found Elementi bekle ve sonra tıkla {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.sendKeysWithFocus' and 'WebAutomationBase.step.BaseSteps.sendKeysWithFocus'"}
+{"logLevel":"debug","message":"Found Write value {} to element {} with focus in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.sendKeysWithFocus' and 'WebAutomationBase.step.BaseSteps.sendKeysWithFocus'"}
+{"logLevel":"debug","message":"Found {} değerini {} elementine focus ile yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.waitElementLoadWithXpath' and 'WebAutomationBase.step.BaseSteps.waitElementLoadWithXpath'"}
+{"logLevel":"debug","message":"Found Wait for element to load with xpath {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.waitElementLoadWithXpath' and 'WebAutomationBase.step.BaseSteps.waitElementLoadWithXpath'"}
+{"logLevel":"debug","message":"Found Elementinin yüklenmesini bekle xpath {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.sendKeyToElementBACKSPACE' and 'WebAutomationBase.step.BaseSteps.sendKeyToElementBACKSPACE'"}
+{"logLevel":"debug","message":"Found Send BACKSPACE key to element {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.sendKeyToElementBACKSPACE' and 'WebAutomationBase.step.BaseSteps.sendKeyToElementBACKSPACE'"}
+{"logLevel":"debug","message":"Found Elemente BACKSPACE keyi yolla {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.elementeJSileTikla' and 'WebAutomationBase.step.BaseSteps.elementeJSileTikla'"}
+{"logLevel":"debug","message":"Found {} elementine javascript ile tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.writeSavedAttributeToElement' and 'WebAutomationBase.step.BaseSteps.writeSavedAttributeToElement'"}
+{"logLevel":"debug","message":"Found Write saved attribute value to element {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.writeSavedAttributeToElement' and 'WebAutomationBase.step.BaseSteps.writeSavedAttributeToElement'"}
+{"logLevel":"debug","message":"Found Kaydedilmiş niteliği {} elementine yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.goToUrl' and 'WebAutomationBase.step.BaseSteps.goToUrl'"}
+{"logLevel":"debug","message":"Found Go to {} address in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.goToUrl' and 'WebAutomationBase.step.BaseSteps.goToUrl'"}
+{"logLevel":"debug","message":"Found {} adresine git in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.AracTalepleriTalepNumarasıKarsilastir' and 'WebAutomationBase.step.BaseSteps.AracTalepleriTalepNumarasıKarsilastir'"}
+{"logLevel":"debug","message":"Found {} elementiyle {} elemetindeki {} textini karsilastir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.waitBySeconds' and 'WebAutomationBase.step.BaseSteps.waitBySeconds'"}
+{"logLevel":"debug","message":"Found Wait {} seconds in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.waitBySeconds' and 'WebAutomationBase.step.BaseSteps.waitBySeconds'"}
+{"logLevel":"debug","message":"Found {} saniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.checkElementAttributeEquals' and 'WebAutomationBase.step.BaseSteps.checkElementAttributeEquals'"}
+{"logLevel":"debug","message":"Found Check if {} element's attribute {} equals to the value {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.checkElementAttributeEquals' and 'WebAutomationBase.step.BaseSteps.checkElementAttributeEquals'"}
+{"logLevel":"debug","message":"Found {} elementinin {} niteliği {} değerine sahip mi in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.chromeZoomOut' and 'WebAutomationBase.step.BaseSteps.chromeZoomOut'"}
+{"logLevel":"debug","message":"Found Change page zoom to {}% in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.chromeZoomOut' and 'WebAutomationBase.step.BaseSteps.chromeZoomOut'"}
+{"logLevel":"debug","message":"Found Sayfanın zoom değerini değiştir {}% in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.chromeFocusTabWithNumber' and 'WebAutomationBase.step.BaseSteps.chromeFocusTabWithNumber'"}
+{"logLevel":"debug","message":"Found Focus on tab number {} in current project scope."}
+{"logLevel":"debug","message":"Loading {} numaralı sekmeye odaklanvia reflected sources."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.checkElementAttributeContains' and 'WebAutomationBase.step.BaseSteps.checkElementAttributeContains'"}
+{"logLevel":"debug","message":"Found Check if {} element's attribute {} contains the value {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.checkElementAttributeContains' and 'WebAutomationBase.step.BaseSteps.checkElementAttributeContains'"}
+{"logLevel":"debug","message":"Found {} elementinin {} niteliği {} değerini içeriyor mu in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.clearInputArea' and 'WebAutomationBase.step.BaseSteps.clearInputArea'"}
+{"logLevel":"debug","message":"Found Clear text of element {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.clearInputArea' and 'WebAutomationBase.step.BaseSteps.clearInputArea'"}
+{"logLevel":"debug","message":"Found {} elementinin text alanını temizle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.getElementWithKeyIfExists' and 'WebAutomationBase.step.BaseSteps.getElementWithKeyIfExists'"}
+{"logLevel":"debug","message":"Found Check if element {} exists in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.getElementWithKeyIfExists' and 'WebAutomationBase.step.BaseSteps.getElementWithKeyIfExists'"}
+{"logLevel":"debug","message":"Found Wait for element to load with key {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.getElementWithKeyIfExists' and 'WebAutomationBase.step.BaseSteps.getElementWithKeyIfExists'"}
+{"logLevel":"debug","message":"Found Element var mı kontrol et {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.getElementWithKeyIfExists' and 'WebAutomationBase.step.BaseSteps.getElementWithKeyIfExists'"}
+{"logLevel":"debug","message":"Found Elementin yüklenmesini bekle {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.printElementText' and 'WebAutomationBase.step.BaseSteps.printElementText'"}
+{"logLevel":"debug","message":"Found Print element text by css {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.printElementText' and 'WebAutomationBase.step.BaseSteps.printElementText'"}
+{"logLevel":"debug","message":"Found Elementin text değerini yazdır css {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.girisYap' and 'WebAutomationBase.step.BaseSteps.girisYap'"}
+{"logLevel":"debug","message":"Found Kullanici adi ve sifre ile giris yapildi in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.clearWithJS' and 'WebAutomationBase.step.BaseSteps.clearWithJS'"}
+{"logLevel":"debug","message":"Found {} alanını javascript ile temizle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.javascriptClickerWithXpath' and 'WebAutomationBase.step.BaseSteps.javascriptClickerWithXpath'"}
+{"logLevel":"debug","message":"Found Click with javascript to xpath {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.javascriptClickerWithXpath' and 'WebAutomationBase.step.BaseSteps.javascriptClickerWithXpath'"}
+{"logLevel":"debug","message":"Found Javascript ile xpath tıkla {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.setElementAttribute' and 'WebAutomationBase.step.BaseSteps.setElementAttribute'"}
+{"logLevel":"debug","message":"Found Write {} to {} of element {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.setElementAttribute' and 'WebAutomationBase.step.BaseSteps.setElementAttribute'"}
+{"logLevel":"debug","message":"Found {} değerini {} niteliğine {} elementi için yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.ssendKeys' and 'WebAutomationBase.step.BaseSteps.ssendKeys'"}
+{"logLevel":"debug","message":"Found Write value {} to element {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.ssendKeys' and 'WebAutomationBase.step.BaseSteps.ssendKeys'"}
+{"logLevel":"debug","message":"Found {} textini {} elemente yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.SiparisDurumuKarsilastir' and 'WebAutomationBase.step.BaseSteps.SiparisDurumuKarsilastir'"}
+{"logLevel":"debug","message":"Found Siparis durmununu {} elementinden bul in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.implementation2' and 'WebAutomationBase.step.BaseSteps.implementation2'"}
+{"logLevel":"debug","message":"Found Tarih olarak günün tarihinden {} gün sonrasını seç in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.tarihAl' and 'WebAutomationBase.step.BaseSteps.tarihAl'"}
+{"logLevel":"debug","message":"Found {} tarihinden 2 gün sonraya al in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.waitByMilliSeconds' and 'WebAutomationBase.step.BaseSteps.waitByMilliSeconds'"}
+{"logLevel":"debug","message":"Found Wait {} milliseconds in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.waitByMilliSeconds' and 'WebAutomationBase.step.BaseSteps.waitByMilliSeconds'"}
+{"logLevel":"debug","message":"Found {} milisaniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.scrollToElementWithJs' and 'WebAutomationBase.step.BaseSteps.scrollToElementWithJs'"}
+{"logLevel":"debug","message":"Found {} alanına js ile kaydır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.SendGetRequest' and 'WebAutomationBase.step.BaseSteps.SendGetRequest'"}
+{"logLevel":"debug","message":"Found Url bilgisi {} ve {} bilgilerini gir ve  get  isteği yap in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.sendKeyOneByOne' and 'WebAutomationBase.step.BaseSteps.sendKeyOneByOne'"}
+{"logLevel":"debug","message":"Found {} textini {} elemente tek tek yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.chromeFocusFrameWithNumber' and 'WebAutomationBase.step.BaseSteps.chromeFocusFrameWithNumber'"}
+{"logLevel":"debug","message":"Found Focus on frame with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.chromeFocusFrameWithNumber' and 'WebAutomationBase.step.BaseSteps.chromeFocusFrameWithNumber'"}
+{"logLevel":"debug","message":"Found Frame'e odaklan {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.talepOlusturVeFiyatOnayıVer' and 'WebAutomationBase.step.BaseSteps.talepOlusturVeFiyatOnayıVer'"}
+{"logLevel":"debug","message":"Found {} Vergi numarasına sahip kullanıcı için post metodu ile {} Talep Numarası oluştur in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.Karsilastir' and 'WebAutomationBase.step.BaseSteps.Karsilastir'"}
+{"logLevel":"debug","message":"Found {} elementiyle karsilastir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.UrunKarsilastir' and 'WebAutomationBase.step.BaseSteps.UrunKarsilastir'"}
+{"logLevel":"debug","message":"Found Sepetteki Urun ile arama sonucu çıkan ürün karşılaştırması in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.scrollToElement' and 'WebAutomationBase.step.BaseSteps.scrollToElement'"}
+{"logLevel":"debug","message":"Found {} alanına kaydır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.ClearUserRequest' and 'WebAutomationBase.step.BaseSteps.ClearUserRequest'"}
+{"logLevel":"debug","message":"Found {} kullanıcısını api üzerinden sil in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.chooseValueFromCalendar' and 'WebAutomationBase.step.BaseSteps.chooseValueFromCalendar'"}
+{"logLevel":"debug","message":"Found Choose {} day later from {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.chooseValueFromCalendar' and 'WebAutomationBase.step.BaseSteps.chooseValueFromCalendar'"}
+{"logLevel":"debug","message":"Found {} degerinden {} gün sonrasını sec in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.acceptChromeAlertPopup' and 'WebAutomationBase.step.BaseSteps.acceptChromeAlertPopup'"}
+{"logLevel":"debug","message":"Found Accept Chrome alert popup in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.acceptChromeAlertPopup' and 'WebAutomationBase.step.BaseSteps.acceptChromeAlertPopup'"}
+{"logLevel":"debug","message":"Found Chrome uyarı popup'ını kabul et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.UrunArtir' and 'WebAutomationBase.step.BaseSteps.UrunArtir'"}
+{"logLevel":"debug","message":"Found Urun Adedi Arttırma in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.implementation1' and 'WebAutomationBase.step.BaseSteps.implementation1'"}
+{"logLevel":"debug","message":"Found {} olarak {} seçersem in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.uploadFile' and 'WebAutomationBase.step.BaseSteps.uploadFile'"}
+{"logLevel":"debug","message":"Found Upload file in project {} to element {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.uploadFile' and 'WebAutomationBase.step.BaseSteps.uploadFile'"}
+{"logLevel":"debug","message":"Found Proje içindeki {} dosyayı {} elemente upload et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.chromeFocusLastTab' and 'WebAutomationBase.step.BaseSteps.chromeFocusLastTab'"}
+{"logLevel":"debug","message":"Found Focus on last tab in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.chromeFocusLastTab' and 'WebAutomationBase.step.BaseSteps.chromeFocusLastTab'"}
+{"logLevel":"debug","message":"Found Son sekmeye odaklan in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.chromeOpenNewTab' and 'WebAutomationBase.step.BaseSteps.chromeOpenNewTab'"}
+{"logLevel":"debug","message":"Found Open new tab in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.chromeOpenNewTab' and 'WebAutomationBase.step.BaseSteps.chromeOpenNewTab'"}
+{"logLevel":"debug","message":"Found Yeni sekme aç in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.writeRandomValueToElement' and 'WebAutomationBase.step.BaseSteps.writeRandomValueToElement'"}
+{"logLevel":"debug","message":"Found Write random value to element {} starting with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.writeRandomValueToElement' and 'WebAutomationBase.step.BaseSteps.writeRandomValueToElement'"}
+{"logLevel":"debug","message":"Found {} elementine {} değeri ile başlayan random değer yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.writeRandomValueToElement' and 'WebAutomationBase.step.BaseSteps.writeRandomValueToElement'"}
+{"logLevel":"debug","message":"Found Write random value to element {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.writeRandomValueToElement' and 'WebAutomationBase.step.BaseSteps.writeRandomValueToElement'"}
+{"logLevel":"debug","message":"Found {} elementine random değer yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.listedenRasgeleTikla' and 'WebAutomationBase.step.BaseSteps.listedenRasgeleTikla'"}
+{"logLevel":"debug","message":"Found {} menu listesinden rasgele seç in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.SeferlerimTalepNumarasıKarsilastir' and 'WebAutomationBase.step.BaseSteps.SeferlerimTalepNumarasıKarsilastir'"}
+{"logLevel":"debug","message":"Found {} in icerdiği {} elementiyle {} elementini seferlerim icin karsilastir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.checkElementAttributeNotExists' and 'WebAutomationBase.step.BaseSteps.checkElementAttributeNotExists'"}
+{"logLevel":"debug","message":"Found Check if element {} not have attribute {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.checkElementAttributeNotExists' and 'WebAutomationBase.step.BaseSteps.checkElementAttributeNotExists'"}
+{"logLevel":"debug","message":"Found {} elementi {} niteliğine sahip değil mi in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.createRandomString' and 'WebAutomationBase.step.BaseSteps.createRandomString'"}
+{"logLevel":"debug","message":"Found {} uzunlugunda random bir kelime üret ve {} olarak sakla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.elementeJSileYaz' and 'WebAutomationBase.step.BaseSteps.elementeJSileYaz'"}
+{"logLevel":"debug","message":"Found {} elementine {} değerini js ile yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.clickParticularElement' and 'WebAutomationBase.step.BaseSteps.clickParticularElement'"}
+{"logLevel":"debug","message":"Found {} elementleri arasından {} kayıtlı değişkene tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.equalsSendTextByKey' and 'WebAutomationBase.step.BaseSteps.equalsSendTextByKey'"}
+{"logLevel":"debug","message":"Found {} li elementi bul ve değerini {} saklanan degeri yazdir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.equalsSendTextByKey' and 'WebAutomationBase.step.BaseSteps.equalsSendTextByKey'"}
+{"logLevel":"debug","message":"Found Find element by {} and compare saved key {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.UrunEkle' and 'WebAutomationBase.step.BaseSteps.UrunEkle'"}
+{"logLevel":"debug","message":"Found Arama Sonucu sepete ürün eklemesi yapma in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.comboboxRandom' and 'WebAutomationBase.step.BaseSteps.comboboxRandom'"}
+{"logLevel":"debug","message":"Found {} olarak comboboxdan bir değer seçilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.saveAttributeValueOfElement' and 'WebAutomationBase.step.BaseSteps.saveAttributeValueOfElement'"}
+{"logLevel":"debug","message":"Found Save attribute {} value of element {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.saveAttributeValueOfElement' and 'WebAutomationBase.step.BaseSteps.saveAttributeValueOfElement'"}
+{"logLevel":"debug","message":"Found {} niteliğini sakla {} elementi için in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.deneme' and 'WebAutomationBase.step.BaseSteps.deneme'"}
+{"logLevel":"debug","message":"Found deneme in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.checkElementAttributeExists' and 'WebAutomationBase.step.BaseSteps.checkElementAttributeExists'"}
+{"logLevel":"debug","message":"Found Check if element {} has attribute {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.checkElementAttributeExists' and 'WebAutomationBase.step.BaseSteps.checkElementAttributeExists'"}
+{"logLevel":"debug","message":"Found {} elementi {} niteliğine sahip mi in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.setElementAttributeWithJs' and 'WebAutomationBase.step.BaseSteps.setElementAttributeWithJs'"}
+{"logLevel":"debug","message":"Found Write {} to {} of element {} with Js in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.setElementAttributeWithJs' and 'WebAutomationBase.step.BaseSteps.setElementAttributeWithJs'"}
+{"logLevel":"debug","message":"Found {} değerini {} niteliğine {} elementi için JS ile yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.sendKeyToElementTAB' and 'WebAutomationBase.step.BaseSteps.sendKeyToElementTAB'"}
+{"logLevel":"debug","message":"Found Send TAB key to element {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.sendKeyToElementTAB' and 'WebAutomationBase.step.BaseSteps.sendKeyToElementTAB'"}
+{"logLevel":"debug","message":"Found Elemente TAB keyi yolla {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.goToUrl2' and 'WebAutomationBase.step.BaseSteps.goToUrl2'"}
+{"logLevel":"debug","message":"Found Go to {} addres in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.olarakIndexiSecersemm' and 'WebAutomationBase.step.BaseSteps.olarakIndexiSecersemm'"}
+{"logLevel":"debug","message":"Found {} olarak {} indexi seçersem in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.clickElementWithFocus' and 'WebAutomationBase.step.BaseSteps.clickElementWithFocus'"}
+{"logLevel":"debug","message":"Found Click to element {} with focus in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.clickElementWithFocus' and 'WebAutomationBase.step.BaseSteps.clickElementWithFocus'"}
+{"logLevel":"debug","message":"Found {} elementine focus ile tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.getElementWithKeyIfExistsWithMessage' and 'WebAutomationBase.step.BaseSteps.getElementWithKeyIfExistsWithMessage'"}
+{"logLevel":"debug","message":"Found Check if element {} exists else print message {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.getElementWithKeyIfExistsWithMessage' and 'WebAutomationBase.step.BaseSteps.getElementWithKeyIfExistsWithMessage'"}
+{"logLevel":"debug","message":"Found Element {} var mı kontrol et yoksa hata mesajı ver {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.RandomeMail' and 'WebAutomationBase.step.BaseSteps.RandomeMail'"}
+{"logLevel":"debug","message":"Found {} li elementi bul, temizle ve rasgele  email değerini yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.RandomeMail' and 'WebAutomationBase.step.BaseSteps.RandomeMail'"}
+{"logLevel":"debug","message":"Found Find element by {} clear and send keys  random email in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.waitElementLoadWithCss' and 'WebAutomationBase.step.BaseSteps.waitElementLoadWithCss'"}
+{"logLevel":"debug","message":"Found Wait for element to load with css {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.waitElementLoadWithCss' and 'WebAutomationBase.step.BaseSteps.waitElementLoadWithCss'"}
+{"logLevel":"debug","message":"Found Elementin yüklenmesini bekle css {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.refreshPage' and 'WebAutomationBase.step.BaseSteps.refreshPage'"}
+{"logLevel":"debug","message":"Found Refresh page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.refreshPage' and 'WebAutomationBase.step.BaseSteps.refreshPage'"}
+{"logLevel":"debug","message":"Found Sayfayı yenile in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.UrunArama' and 'WebAutomationBase.step.BaseSteps.UrunArama'"}
+{"logLevel":"debug","message":"Found Urun arama ekraninda bilgisayar kelimesi aranır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.SendPostRequestSetQuotePrice' and 'WebAutomationBase.step.BaseSteps.SendPostRequestSetQuotePrice'"}
+{"logLevel":"debug","message":"Found Siparis numarasını içeren {} elementini kullanarak teklif al in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.clearInputAreaWithBackspace' and 'WebAutomationBase.step.BaseSteps.clearInputAreaWithBackspace'"}
+{"logLevel":"debug","message":"Found Clear text of element {} with BACKSPACE in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.clearInputAreaWithBackspace' and 'WebAutomationBase.step.BaseSteps.clearInputAreaWithBackspace'"}
+{"logLevel":"debug","message":"Found {} elementinin text alanını BACKSPACE ile temizle in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} kullanıcısını api üzerinden sil : public void ClearUserRequest(String username)"}
+{"logLevel":"debug","message":"\t{} olarak {} indexi seçersem : public void olarakIndexiSecersemm(String key, String index)"}
+{"logLevel":"debug","message":"\tWait for element to load with xpath {} : public void waitElementLoadWithXpath(String xpath)"}
+{"logLevel":"debug","message":"\tJavascript ile css tıkla {} : public void javascriptClickerWithCss(String css)"}
+{"logLevel":"debug","message":"\tCheck if element {} not have attribute {} : public void checkElementAttributeNotExists(String key, String attribute)"}
+{"logLevel":"debug","message":"\tCheck if element {} has attribute {} : public void checkElementAttributeExists(String key, String attribute)"}
+{"logLevel":"debug","message":"\t{} adresine git : public void goToUrl(String url)"}
+{"logLevel":"debug","message":"\t{} değerini {} niteliğine {} elementi için JS ile yaz : public void setElementAttributeWithJs(String value, String attributeName, String key)"}
+{"logLevel":"debug","message":"\tElement {} var mı kontrol et yoksa hata mesajı ver {} : public void getElementWithKeyIfExistsWithMessage(String key, String message)"}
+{"logLevel":"debug","message":"\tSiparis numarasını içeren {} elementini kullanarak teklif al : public void SendPostRequestSetQuotePrice(String key)"}
+{"logLevel":"debug","message":"\tOpen new tab : public void chromeOpenNewTab()"}
+{"logLevel":"debug","message":"\tŞuanki URL {} değerini içeriyor mu kontrol et : public void checkURLContainsRepeat(String expectedURL)"}
+{"logLevel":"debug","message":"\tElemente TAB keyi yolla {} : public void sendKeyToElementTAB(String key)"}
+{"logLevel":"debug","message":"\t{} elementinin {} niteliği {} değerini içeriyor mu : public void checkElementAttributeContains(String key, String attribute, String expectedValue)"}
+{"logLevel":"debug","message":"\t{} olarak comboboxdan bir değer seçilir : public void comboboxRandom(String key) throws InterruptedException"}
+{"logLevel":"debug","message":"\tSend ESCAPE key to element {} : public void sendKeyToElementESCAPE(String key)"}
+{"logLevel":"debug","message":"\t{} olarak {} seçersemm : public void olarakSecersemm(String key, String text)"}
+{"logLevel":"debug","message":"\tWrite value {} to element {} : public void ssendKeys(String text, String key)"}
+{"logLevel":"debug","message":"\t{} elementiyle {} elemetindeki {} textini karsilastir : public void AracTalepleriTalepNumarasıKarsilastir(String key, String cardDetail, String keyToCompare) throws InterruptedException"}
+{"logLevel":"debug","message":"\tClick to element {} with focus : public void clickElementWithFocus(String key)"}
+{"logLevel":"debug","message":"\tElementi bekle ve sonra tıkla {} : public void checkElementExistsThenClick(String key)"}
+{"logLevel":"debug","message":"\t{} in icerdiği {} elementiyle {} elementini seferlerim icin karsilastir : public void SeferlerimTalepNumarasıKarsilastir(String firstCard, String key, String keyToCompare) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} numaralı sekmeye odaklan : null"}
+{"logLevel":"debug","message":"\tWait for element to load with key {} : public WebElement getElementWithKeyIfExists(String key)"}
+{"logLevel":"debug","message":"\tElemente BACKSPACE keyi yolla {} : public void sendKeyToElementBACKSPACE(String key)"}
+{"logLevel":"debug","message":"\tArama Sonucu sepete ürün eklemesi yapma : public void UrunEkle() throws IOException, InterruptedException"}
+{"logLevel":"debug","message":"\tWrite {} to {} of element {} : public void setElementAttribute(String value, String attributeName, String key)"}
+{"logLevel":"debug","message":"\t{} elementine {} değeri ile başlayan random değer yaz : public void writeRandomValueToElement(String key, String startingText)"}
+{"logLevel":"debug","message":"\tPrint page source : public void printPageSource()"}
+{"logLevel":"debug","message":"\tWait {} milliseconds : public void waitByMilliSeconds(long milliseconds)"}
+{"logLevel":"debug","message":"\tRefresh page : public void refreshPage()"}
+{"logLevel":"debug","message":"\t{} milisaniye bekle : public void waitByMilliSeconds(long milliseconds)"}
+{"logLevel":"debug","message":"\t{} elementi {} değerini içeriyor mu kontrol et : public void checkElementContainsText(String key, String expectedText)"}
+{"logLevel":"debug","message":"\tElementin yüklenmesini bekle css {} : public void waitElementLoadWithCss(String css)"}
+{"logLevel":"debug","message":"\tCheck if element {} exists else print message {} : public void getElementWithKeyIfExistsWithMessage(String key, String message)"}
+{"logLevel":"debug","message":"\t{} elementi {} niteliğine sahip değil mi : public void checkElementAttributeNotExists(String key, String attribute)"}
+{"logLevel":"debug","message":"\t{} alanını javascript ile temizle : public void clearWithJS(String key)"}
+{"logLevel":"debug","message":"\t{} niteliğini sakla {} elementi için : public void saveAttributeValueOfElement(String attribute, String key)"}
+{"logLevel":"debug","message":"\t{} alanına kaydır : public void scrollToElement(String key)"}
+{"logLevel":"debug","message":"\tElemente ESCAPE keyi yolla {} : public void sendKeyToElementESCAPE(String key)"}
+{"logLevel":"debug","message":"\tGo to {} address : public void goToUrl(String url)"}
+{"logLevel":"debug","message":"\t{} olarak {} seçersem : public void implementation1(String key, String text) throws InterruptedException"}
+{"logLevel":"debug","message":"\tCheck if element {} exists : public WebElement getElementWithKeyIfExists(String key)"}
+{"logLevel":"debug","message":"\tJavascript ile xpath tıkla {} : public void javascriptClickerWithXpath(String xpath)"}
+{"logLevel":"debug","message":"\tCheck if current URL contains the value {} : public void checkURLContainsRepeat(String expectedURL)"}
+{"logLevel":"debug","message":"\t{} alanına js ile kaydır : public void scrollToElementWithJs(String key)"}
+{"logLevel":"debug","message":"\tFind element by {} and compare saved key {} : public void equalsSendTextByKey(String key, String saveKey) throws InterruptedException"}
+{"logLevel":"debug","message":"\tSon sekmeye odaklan : public void chromeFocusLastTab()"}
+{"logLevel":"debug","message":"\tWrite random value to element {} : public void writeRandomValueToElement(String key)"}
+{"logLevel":"debug","message":"\tFind element by {} clear and send keys  random email : public void RandomeMail(String key)"}
+{"logLevel":"debug","message":"\tChoose {} day later from {} : public void chooseValueFromCalendar(String key, ınt value) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} degerinden {} gün sonrasını sec : public void chooseValueFromCalendar(String key, ınt value) throws InterruptedException"}
+{"logLevel":"debug","message":"\tKaydedilmiş niteliği {} elementine yaz : public void writeSavedAttributeToElement(String key)"}
+{"logLevel":"debug","message":"\tSend TAB key to element {} : public void sendKeyToElementTAB(String key)"}
+{"logLevel":"debug","message":"\tSend BACKSPACE key to element {} : public void sendKeyToElementBACKSPACE(String key)"}
+{"logLevel":"debug","message":"\t{} li elementi bul ve değerini {} saklanan degeri yazdir : public void equalsSendTextByKey(String key, String saveKey) throws InterruptedException"}
+{"logLevel":"debug","message":"\tSepetteki Urun ile arama sonucu çıkan ürün karşılaştırması : public void UrunKarsilastir() throws IOException, InterruptedException"}
+{"logLevel":"debug","message":"\tSayfanın zoom değerini değiştir {}% : public void chromeZoomOut(String value)"}
+{"logLevel":"debug","message":"\t{} li elementi bul, temizle ve rasgele  email değerini yaz : public void RandomeMail(String key)"}
+{"logLevel":"debug","message":"\tAccept Chrome alert popup : public void acceptChromeAlertPopup()"}
+{"logLevel":"debug","message":"\t{} uzunlugunda random bir kelime üret ve {} olarak sakla : public void createRandomString(ınt length, String saveKey)"}
+{"logLevel":"debug","message":"\tElementine tıkla {} : public void clickElement(String key)"}
+{"logLevel":"debug","message":"\t{} textini {} elemente tek tek yaz : public void sendKeyOneByOne(String text, String key) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} textini {} elemente yaz : public void ssendKeys(String text, String key)"}
+{"logLevel":"debug","message":"\tUrun arama ekraninda bilgisayar kelimesi aranır : public void UrunArama() throws InterruptedException"}
+{"logLevel":"debug","message":"\tWrite saved attribute value to element {} : public void writeSavedAttributeToElement(String key)"}
+{"logLevel":"debug","message":"\tChange page zoom to {}% : public void chromeZoomOut(String value)"}
+{"logLevel":"debug","message":"\tFrame'e odaklan {} : public void chromeFocusFrameWithNumber(String key)"}
+{"logLevel":"debug","message":"\tCheck if {} element's attribute {} contains the value {} : public void checkElementAttributeContains(String key, String attribute, String expectedValue)"}
+{"logLevel":"debug","message":"\tWait for element then click {} : public void checkElementExistsThenClick(String key)"}
+{"logLevel":"debug","message":"\t{} değerini {} niteliğine {} elementi için yaz : public void setElementAttribute(String value, String attributeName, String key)"}
+{"logLevel":"debug","message":"\t{} tarihinden 2 gün sonraya al : public void tarihAl(String key)"}
+{"logLevel":"debug","message":"\t{} elementiyle karsilastir : public void Karsilastir(String key) throws InterruptedException"}
+{"logLevel":"debug","message":"\tWrite random value to element {} starting with {} : public void writeRandomValueToElement(String key, String startingText)"}
+{"logLevel":"debug","message":"\t{} elementinin {} niteliği {} değerine sahip mi : public void checkElementAttributeEquals(String key, String attribute, String expectedValue)"}
+{"logLevel":"debug","message":"\tSiparis durmununu {} elementinden bul : public void SiparisDurumuKarsilastir(String kartDurumu) throws InterruptedException"}
+{"logLevel":"debug","message":"\tGo to {} addres : public void goToUrl2(String url)"}
+{"logLevel":"debug","message":"\tProje içindeki {} dosyayı {} elemente upload et : public void uploadFile(String path, String key)"}
+{"logLevel":"debug","message":"\tWait {} seconds : public void waitBySeconds(ınt seconds)"}
+{"logLevel":"debug","message":"\tClear text of element {} : public void clearInputArea(String key)"}
+{"logLevel":"debug","message":"\tCheck if element {} not exists : public void checkElementNotExists(String key)"}
+{"logLevel":"debug","message":"\t{} elementine javascript ile tıkla : public void elementeJSileTikla(String key)"}
+{"logLevel":"debug","message":"\t{} Vergi numarasına sahip kullanıcı için post metodu ile {} Talep Numarası oluştur : public String talepOlusturVeFiyatOnayıVer(String taxNumber, String BenimTalepNumaram)"}
+{"logLevel":"debug","message":"\t{} elementine random değer yaz : public void writeRandomValueToElement(String key)"}
+{"logLevel":"debug","message":"\tSave attribute {} value of element {} : public void saveAttributeValueOfElement(String attribute, String key)"}
+{"logLevel":"debug","message":"\tFocus on tab number {} : public void chromeFocusTabWithNumber(ınt number)"}
+{"logLevel":"debug","message":"\t{} elementinin text alanını BACKSPACE ile temizle : public void clearInputAreaWithBackspace(String key)"}
+{"logLevel":"debug","message":"\t{} elementinin text alanını temizle : public void clearInputArea(String key)"}
+{"logLevel":"debug","message":"\tFocus on frame with {} : public void chromeFocusFrameWithNumber(String key)"}
+{"logLevel":"debug","message":"\tKullanici adi ve sifre ile giris yapildi : public void girisYap() throws InterruptedException, IOException"}
+{"logLevel":"debug","message":"\tClick with javascript to xpath {} : public void javascriptClickerWithXpath(String xpath)"}
+{"logLevel":"debug","message":"\tClear text of element {} with BACKSPACE : public void clearInputAreaWithBackspace(String key)"}
+{"logLevel":"debug","message":"\tClick with javascript to css {} : public void javascriptClickerWithCss(String css)"}
+{"logLevel":"debug","message":"\tUpload file in project {} to element {} : public void uploadFile(String path, String key)"}
+{"logLevel":"debug","message":"\tCheck if {} element's attribute {} equals to the value {} : public void checkElementAttributeEquals(String key, String attribute, String expectedValue)"}
+{"logLevel":"debug","message":"\tUrl bilgisi {} ve {} bilgilerini gir ve  get  isteği yap : public void SendGetRequest(String path, String url)"}
+{"logLevel":"debug","message":"\tWrite value {} to element {} with focus : public void sendKeysWithFocus(String text, String key)"}
+{"logLevel":"debug","message":"\tElement yok mu kontrol et {} : public void checkElementNotExists(String key)"}
+{"logLevel":"debug","message":"\tElement var mı kontrol et {} : public WebElement getElementWithKeyIfExists(String key)"}
+{"logLevel":"debug","message":"\tWait for element to load with css {} : public void waitElementLoadWithCss(String css)"}
+{"logLevel":"debug","message":"\t{} saniye bekle : public void waitBySeconds(ınt seconds)"}
+{"logLevel":"debug","message":"\tSayfayı yenile : public void refreshPage()"}
+{"logLevel":"debug","message":"\tYeni sekme aç : public void chromeOpenNewTab()"}
+{"logLevel":"debug","message":"\t{} elementine {} değerini js ile yaz : public void elementeJSileYaz(String key, String text)"}
+{"logLevel":"debug","message":"\tWrite {} to {} of element {} with Js : public void setElementAttributeWithJs(String value, String attributeName, String key)"}
+{"logLevel":"debug","message":"\t{} elementi {} niteliğine sahip mi : public void checkElementAttributeExists(String key, String attribute)"}
+{"logLevel":"debug","message":"\t{} elementine focus ile tıkla : public void clickElementWithFocus(String key)"}
+{"logLevel":"debug","message":"\tElementin yüklenmesini bekle {} : public WebElement getElementWithKeyIfExists(String key)"}
+{"logLevel":"debug","message":"\tCheck if element {} contains text {} : public void checkElementContainsText(String key, String expectedText)"}
+{"logLevel":"debug","message":"\t{} menu listesinden rasgele seç : public void listedenRasgeleTikla(String key)"}
+{"logLevel":"debug","message":"\tClick to element {} : public void clickElement(String key)"}
+{"logLevel":"debug","message":"\tElementinin yüklenmesini bekle xpath {} : public void waitElementLoadWithXpath(String xpath)"}
+{"logLevel":"debug","message":"\tElementin text değerini yazdır css {} : public void printElementText(String css)"}
+{"logLevel":"debug","message":"\tTarih olarak günün tarihinden {} gün sonrasını seç : public void implementation2(String gun) throws InterruptedException"}
+{"logLevel":"debug","message":"\tFocus on last tab : public void chromeFocusLastTab()"}
+{"logLevel":"debug","message":"\t{} değerini {} elementine focus ile yaz : public void sendKeysWithFocus(String text, String key)"}
+{"logLevel":"debug","message":"\tPrint element text by css {} : public void printElementText(String css)"}
+{"logLevel":"debug","message":"\t// Starting from 1\n\"{} numaralı sekmeye odaklan : public void chromeFocusTabWithNumber(ınt number)"}
+{"logLevel":"debug","message":"\tdeneme : public void deneme()"}
+{"logLevel":"debug","message":"\t{} elementleri arasından {} kayıtlı değişkene tıkla : public void clickParticularElement(String key, String text)"}
+{"logLevel":"debug","message":"\tUrun Adedi Arttırma : public void UrunArtir() throws InterruptedException"}
+{"logLevel":"debug","message":"\tChrome uyarı popup'ını kabul et : public void acceptChromeAlertPopup()"}
+{"logLevel":"debug","message":"started gRPC server on port 62389"}
+{"logLevel":"info","message":"Listening on port:62389"}
+2020-11-23 08:05:16 INFO  Reflections:169 info - Reflections took 2218 ms to scan 108 urls, producing 13041 keys and 60170 values 
+Kas 23, 2020 8:05:17 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 27024
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1606107918.848][WARNING]: This version of ChromeDriver has not been tested with Chrome version 87.
+Kas 23, 2020 8:05:19 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Go to {} addres' using 'class WebAutomationBase.step.BaseSteps.goToUrl2"}
+2020-11-23 08:05:22 INFO  BaseSteps:237 goToUrl2 - http://www.trendyol.com adresine gidiliyor.
+{"logLevel":"debug","message":"Executing 'Kullanici adi ve sifre ile giris yapildi' using 'class WebAutomationBase.step.BaseSteps.girisYap"}
+2020-11-23 08:05:23 INFO  BaseSteps:242 Control - Ana Sayfa Kontrolü Basarili
+username= testtrendyol23@gmail.com
+password= test12398765

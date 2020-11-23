@@ -1,0 +1,61 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+{"logLevel":"debug","message":"gauge-java took 800milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 800"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+2020-11-23 08:12:09 INFO  Reflections:169 info - Reflections took 3837 ms to scan 108 urls, producing 13125 keys and 68579 values 
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.UrunArama' and 'WebAutomationBase.step.BaseSteps.UrunArama'"}
+{"logLevel":"debug","message":"Found Urun arama ekraninda bilgisayar kelimesi aranır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.UrunKarsilastir' and 'WebAutomationBase.step.BaseSteps.UrunKarsilastir'"}
+{"logLevel":"debug","message":"Found Sepetteki Urun ile arama sonucu çıkan ürün karşılaştırması in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.goToUrl2' and 'WebAutomationBase.step.BaseSteps.goToUrl2'"}
+{"logLevel":"debug","message":"Found Go to {} addres in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.UrunArtir' and 'WebAutomationBase.step.BaseSteps.UrunArtir'"}
+{"logLevel":"debug","message":"Found Urun Adedi Arttırma in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.girisYap' and 'WebAutomationBase.step.BaseSteps.girisYap'"}
+{"logLevel":"debug","message":"Found Kullanici adi ve sifre ile giris yapildi in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.goToUrl' and 'WebAutomationBase.step.BaseSteps.goToUrl'"}
+{"logLevel":"debug","message":"Found Go to {} address in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.goToUrl' and 'WebAutomationBase.step.BaseSteps.goToUrl'"}
+{"logLevel":"debug","message":"Found {} adresine git in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.UrunEkle' and 'WebAutomationBase.step.BaseSteps.UrunEkle'"}
+{"logLevel":"debug","message":"Found Arama Sonucu sepete ürün eklemesi yapma in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WebAutomationBase.step.BaseSteps.deneme' and 'WebAutomationBase.step.BaseSteps.deneme'"}
+{"logLevel":"debug","message":"Found deneme in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tUrun arama ekraninda bilgisayar kelimesi aranır : public void UrunArama() throws InterruptedException"}
+{"logLevel":"debug","message":"\tArama Sonucu sepete ürün eklemesi yapma : public void UrunEkle() throws IOException, InterruptedException"}
+{"logLevel":"debug","message":"\tKullanici adi ve sifre ile giris yapildi : public void girisYap() throws InterruptedException, IOException"}
+{"logLevel":"debug","message":"\tdeneme : public void deneme()"}
+{"logLevel":"debug","message":"\t{} adresine git : public void goToUrl(String url)"}
+{"logLevel":"debug","message":"\tSepetteki Urun ile arama sonucu çıkan ürün karşılaştırması : public void UrunKarsilastir() throws IOException, InterruptedException"}
+{"logLevel":"debug","message":"\tUrun Adedi Arttırma : public void UrunArtir() throws InterruptedException"}
+{"logLevel":"debug","message":"\tGo to {} address : public void goToUrl(String url)"}
+{"logLevel":"debug","message":"\tGo to {} addres : public void goToUrl2(String url)"}
+{"logLevel":"debug","message":"started gRPC server on port 64416"}
+{"logLevel":"info","message":"Listening on port:64416"}
+2020-11-23 08:12:13 INFO  Reflections:169 info - Reflections took 2239 ms to scan 108 urls, producing 13041 keys and 60170 values 
+Kas 23, 2020 8:12:13 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 17338
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1606108334.767][WARNING]: This version of ChromeDriver has not been tested with Chrome version 87.
+Kas 23, 2020 8:12:14 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Go to {} addres' using 'class WebAutomationBase.step.BaseSteps.goToUrl2"}
+2020-11-23 08:12:17 INFO  BaseSteps:65 goToUrl2 - http://www.trendyol.com adresine gidiliyor.
+{"logLevel":"debug","message":"Executing 'Kullanici adi ve sifre ile giris yapildi' using 'class WebAutomationBase.step.BaseSteps.girisYap"}
+2020-11-23 08:12:19 INFO  BaseSteps:70 Control - Ana Sayfa Kontrolü Basarili
+username= testtrendyol23@gmail.com
+password= test12398765
+{"logLevel":"debug","message":"Executing 'Urun arama ekraninda bilgisayar kelimesi aranır' using 'class WebAutomationBase.step.BaseSteps.UrunArama"}
+{"logLevel":"debug","message":"Executing 'Arama Sonucu sepete ürün eklemesi yapma' using 'class WebAutomationBase.step.BaseSteps.UrunEkle"}
+{"logLevel":"debug","message":"Executing 'Sepetteki Urun ile arama sonucu çıkan ürün karşılaştırması' using 'class WebAutomationBase.step.BaseSteps.UrunKarsilastir"}
+2020-11-23 08:12:37 INFO  BaseSteps:149 UrunKarsilastir - Urunun fiyati ile sepetteki fiyat aynidir.
+{"logLevel":"debug","message":"Executing 'Urun Adedi Arttırma' using 'class WebAutomationBase.step.BaseSteps.UrunArtir"}
+Value of the button is:- 2
+2020-11-23 08:12:43 INFO  BaseSteps:171 UrunArtir - Urun Adet Kontrolu Basarili
